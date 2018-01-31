@@ -1,0 +1,86 @@
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 970px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+#entry {
+    width: 50%;
+    margin-top: 50px;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn {
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    line-height: 30px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.btn:active {
+    opacity: 0.6;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+#add {
+    background: green;
+    color: white;
+}
+
+#undo {
+    background: orange;
+    color: white;
+}
+
+#redo {
+    background: rgb(2, 185, 2);
+    color: white;
+}
+
+#clear {
+    background: red;
+    color: white;
+}
+
+.city {
+    margin: 10px 0;
+    width: 300px;
+    padding: 10px 5px;
+    background: skyblue;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.city .name {
+    display: inline-block;
+}
+
+.city i {
+    float: right;
+    color: red;
+    cursor: pointer;
+    padding: 0 5px;
+}
